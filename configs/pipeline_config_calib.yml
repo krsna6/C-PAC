@@ -33,19 +33,19 @@ numSubjectsAtOnce :  1
 
 
 # Name for this pipeline configuration - useful for identification.
-pipelineName :  mar20_NoCalib
+pipelineName :  mar20_calib
 
 
 # Directory where CPAC should store temporary and intermediate files.
-workingDirectory :  /sam/projects/krishna/andromeda_test/working_nocalib
+workingDirectory :  /sam/projects/krishna/andromeda_test/working
 
 
 # Directory where CPAC should write crash logs.
-crashLogDirectory :  /sam/projects/krishna/andromeda_test/crash_nocalib
+crashLogDirectory :  /sam/projects/krishna/andromeda_test/crash
 
 
 # Directory where CPAC should place processed data.
-outputDirectory :  /sam/projects/krishna/andromeda_test/output_nocalib
+outputDirectory :  /sam/projects/krishna/andromeda_test/output
 
 
 # Create a user-friendly, well organized version of the output directory.
@@ -84,7 +84,7 @@ runAnatomicalPreprocessing :  [1]
 
 # Runs the functional preprocessing workflow.
 # Must be enabled to run any subsequent processing or analysis workflows.
-runFunctionalPreprocessing :  [1]
+runFunctionalPreprocessingWithCalib :  [1]
 
 
 # Register anatomical images to a template.
@@ -175,7 +175,7 @@ runRegisterFuncToAnat :  [1]
 
 
 # Run Functional to Anatomical Registration with BB Register
-runBBReg :  [1]
+runBBRegWithCalib :  [1]
 
 
 # Run Functional to Anatomical Registration with BB Register

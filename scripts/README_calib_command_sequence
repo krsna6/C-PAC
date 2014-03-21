@@ -1,0 +1,12 @@
+# command sequence with B0 field map correction - 'calib' is used in the 
+# names of the scripts or functions...
+
+import CPAC
+CPAC.utils.extract_data.run('data_config.py')
+CPAC.utils.add_calib_info.run('CPAC_subject_list.yml')
+# this outputs CPAC_subject_list_calib.yml
+# edit all the options you want in pipeline_calib_config.yml available in
+# configs
+
+CPAC.pipeline.cpac_runner.run('pipeline_calib_config.yml', 'CPAC_subject_list_calib.yml')
+

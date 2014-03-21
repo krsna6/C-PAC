@@ -1,0 +1,24 @@
+-
+    subject_id: 'sub4974'
+    unique_id: ''
+    anat: '/sam/wave1/sub4974/originals/03+HighResT1/sub4974+03+HighResT1.nii.gz'
+    rest: 
+      rest_1_lfo: '/sam/wave1/sub4974/originals/07+Rest_TR2_4mm/131213170412.nii.gz'
+    scan_parameters:
+        tr: '2'
+        acquisition: 'alt+z'
+        reference: '1'
+        first_tr: '4'
+        last_tr: '180'
+-
+    subject_id: 'sub3112'
+    unique_id: ''
+    anat: '/sam/wave1/sub3112/originals/02+HighResT1/fzoj7suy+02+HighResT1.nii.gz'
+    rest: 
+      rest_1_lfo: '/sam/wave1/sub3112/originals/07+Rest_TR2_4mm/091001183515.nii.gz'
+    scan_parameters:
+        tr: '2'
+        acquisition: 'alt+z'
+        reference: '1'
+        first_tr: '4'
+        last_tr: '180'

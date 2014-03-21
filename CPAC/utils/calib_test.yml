@@ -1,0 +1,7 @@
+#@krishna somandepalli
+#format subject_id: calib_folder_name
+# make sure that the calib_folder_name in the subject_id folder has FOUR files
+#by name cal_bo, cal_rho, cal_rs, cal_reg_bo.. all ending in .nii.gz
+
+sub3112: calib_1
+sub4974: calib_1
